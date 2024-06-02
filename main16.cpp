@@ -128,7 +128,7 @@ int main() {
         return -1;
     }
 
-    window = glfwCreateWindow(1000, 1000, "Cohen Sutherland Polygon Clipping Algorithm", NULL, NULL);
+    window = glfwCreateWindow(1000, 1000, "Sutherland Hodgeman Polygon Clipping Algorithm", NULL, NULL);
     if (!window) {
         glfwTerminate();
         return -1;
