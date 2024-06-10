@@ -83,7 +83,7 @@ int main()
     glMatrixMode(GL_MODELVIEW);
     float sy, sx;
     sx = 2;
-     sy = 1.5;
+    sy = 1.5;
     float scale[3][3] = {{sx, 0, 0}, {0, sy, 0}, {0, 0, 1}};
     while (!glfwWindowShouldClose(window))
     {

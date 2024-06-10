@@ -82,7 +82,7 @@ int main()
     }
     glMatrixMode(GL_MODELVIEW);
     float tx, ty;
-     tx=55;
+    tx=55;
     ty = 100;
     float translate[3][3] = {{1, 0, tx}, {0, 1, ty}, {0, 0, 1}};
     while (!glfwWindowShouldClose(window))
